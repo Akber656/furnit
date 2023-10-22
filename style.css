@@ -1,0 +1,1470 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    color: #339bfb;
+    margin: 1rem;
+    width: 30%;
+}
+header h3{
+    margin-left: 0.5rem;
+}
+header{
+    display: flex;
+    
+}
+header .input input{
+    border: none;
+    outline: none;
+   height: 2rem;
+    width: 25rem;
+   margin-top: 1.4rem;
+    text-align: center;
+     background: #f4cd87;
+     border-radius: 2rem;
+     font-size: 1rem;
+}
+header .input{
+    width: 35%;
+}
+
+header ul{
+    display: flex; 
+    margin-top: 1.5rem;
+    width: 35%;
+    
+}
+header ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+header ul li:hover{
+    cursor: pointer;
+    color: #f4cd87;
+    text-decoration: underline;
+}
+/* Section one css */
+.one .left{
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.one .left h3{
+    background-color: #f4cd87;
+    width: 33%;
+    padding-left: 0.2rem;
+}
+.one .left h2{
+    color: #339bfb;
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+.one .left h1{
+    color: #f4cd87;
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+.one .left p{
+    width: 85%;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.images{
+    display: flex;
+    margin-top: 2rem;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.images .image img{
+    height: 3rem;
+}
+.images .image h4{
+    margin-top: 0.rem; 
+    font-size: 1.5rem;
+    padding-left: 0.8rem; 
+}
+.one .left button{
+    background-color: #f4cd87;
+    margin-top: 2rem;
+    height: 2.5rem;
+    width:30%;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    
+} 
+.one .left button {
+    display: flex;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+ .one .left button h4{
+    width: 80%;
+    font-size: larger;
+    margin-top: 0.7rem;
+}
+.one .left button img{
+     height: 1rem;
+     margin-top: 0.7rem;
+     width: 2rem;
+     margin-left: -0.8rem;
+}
+.one .left button:hover{
+    cursor: pointer;
+    box-shadow: 6px 6px 3px #f4cd87 ;
+}
+.one {
+    display: flex;
+} 
+.one .right {
+   width: 50%;
+   margin-top: 0rem;
+   margin-left: 10rem;
+}
+.one .right img{
+    height: 25rem;
+}
+
+
+
+/* section two css */
+.two .top {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    width: 70%;
+    margin-left: 5rem;
+}
+.two {
+    width: 80%;
+}
+
+.two .top h3{
+    font-size: 2rem;
+    width: 70%;
+    align-content: center;
+    margin-top: 5rem;
+}
+.two .top .top1 img{
+    margin-left: 12rem;
+    width: 3rem;
+}
+.two .top .top3 img{
+    margin-top: 0.7rem;
+    height: 14rem;
+    background-color: white;
+}
+.two .top {
+    background-color: #f4cd87;
+    width: 120%;
+    margin-left: 2rem;
+}
+.two .top .top2 img{
+    background-color: white;
+    margin-top: 1rem;
+    height: 14rem;
+    margin-top: 0.7rem; 
+    margin-left: -2rem;
+}
+.two .middle{
+    margin-top: 5rem;
+    display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-left: 8rem;
+    background-color: rgba(246,213,110,255);
+    border-radius: 2rem;
+    
+}
+.two .middle img{
+    margin-top: 2rem;
+}
+.two .middle .p img{
+   margin-left: 13rem;
+}
+.two .middle p{
+    width: 50%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 14rem;
+}
+.two .bottom {
+     margin-top: 15rem;
+     display: flex;
+}
+.two .bottom .left{
+    display: flex;
+    margin-left: 12rem;
+    background-color:  rgba(246,213,110,255);
+    padding: 1rem; 
+    margin-bottom: 1rem;
+}
+.two .bottom .left .a{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.two .bottom .left .a h3{
+    color: #339bfb;
+}
+.two .bottom .left .a h4{
+    color: #339bfb;
+    margin-top: 1.5rem;
+}
+.two .bottom .left .a p{
+    font-size: 2rem;
+}
+.two .bottom .left .b img{
+    margin-top: 3rem;
+}
+.two .bottom .right .b img{
+    height: 18rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.two .bottom .right{
+    display: flex;
+    margin-left: 5rem;
+    background-color:  rgba(246,213,110,255);
+    height: 17.5rem;
+    width: 28rem;
+}
+.two .bottom .right .a{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.two .bottom .right .a h3{
+    color: #339bfb;
+    margin-top: 1.3rem;
+}
+.two .bottom .right .a h4{
+    color: #339bfb;
+    margin-top: 1.5rem;
+}
+.two .bottom .right .a p{
+    font-size: 2rem;
+}
+
+
+
+/* section three css */
+.three {
+    margin-top: 8rem;
+   display: flex;
+   background-color: #f4cd87;
+   height: 37rem;
+   width: 95%;
+   margin-left: 2rem;
+}
+.three .left .akb{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+      padding: 1rem;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+.three .left .akb .d{
+   background-color: white;
+   height: 11.3rem;
+   width: 9rem;
+   justify-content: center;
+   border-radius: 1rem;
+   margin-left: -3rem;
+   margin-top: 6rem;
+}
+.three .left .akb .d img{
+    margin-left: -1rem;
+}
+.three .left .akb .c{
+    background-color: white;
+    width: 12rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    
+}
+.three .left .akb .e{
+    background-color: white;
+  margin-top: -1rem;
+  border-radius: 1rem;
+}
+.three .right{
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.three .right h1{
+    font-size: 3rem;
+}
+.three .right p{
+    font-size: 1.2rem;
+    width: 80%; 
+}
+.three .right h1 span{
+    color: orange;
+}
+.three .right ul {
+    display: flex;
+    flex-direction: column;
+   margin-top: 1rem;
+}
+.three .right ul li{
+    list-style: none;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+.three .right ul li img{
+    height: 2rem;
+
+} 
+.three .right ul li h3{
+    margin-left: 0.7rem;
+}
+.three .right button{
+    margin-top: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+.three .right button img{
+    height: 1.3rem;
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    width: 1.5rem;
+} 
+.three .right button h3{
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    color: orange;
+    
+}
+.three .right button:hover{
+    cursor: pointer;
+     box-shadow: 6px 6px 3px orange; 
+    background-color: orange;
+}
+.three .right button h3:hover{
+    color: white;
+}
+
+
+
+/* section four css */
+.four .top{
+    margin-top: 7rem;
+}
+.four .top .mn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four .top .mn h1{
+    font-size: 3rem;
+}
+.four .top .mn h1 span{
+    color: orange;
+}
+.four .top .mn p{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.four .top .f ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 90%;
+} 
+.four .top .f ul li{
+    list-style: none;
+    margin-left: 8rem;
+}
+.four .top .f ul li:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+.four .products{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9rem;
+    width: 80%;
+
+   
+}
+.products .product img{
+    background-color: #f4cd87;
+    height: 8rem;
+    padding: 1rem;
+   border-radius: 2rem;
+}
+.products .product h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+}
+.products .product .price{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+    color: #339bfb;
+}
+.products .product .price h4{
+    font-weight: bold;
+    color:royalblue;
+    margin-left: 1rem;
+}
+.products .product .price h5{
+    margin-left: -1rem;
+} 
+.product:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+  }
+.four .botom {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9rem;
+    width: 80%;
+}
+.four .botom .produt img{
+    background-color: #f4cd87;
+    height: 8rem;
+    padding: 1rem;
+   border-radius: 2rem;
+}
+.botom .produt h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+}
+.produt:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+  }
+.botom .produt .price{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+    color: #339bfb;
+}
+.botom .produt .price h4{
+    font-weight: bold;
+    color:royalblue;
+    margin-left: 1rem;
+}
+.k{
+    display: flex;
+    background-color: #f4cd87;
+    width: 70%;
+    margin-left: 14rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    height: 17rem;
+}
+.k .left h1{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 3rem;
+}
+.k .left h3{
+    margin-left: 3rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.k .right img{
+    margin-top: -7rem;
+    margin-left: 10rem;
+}
+.k .left button{
+    margin-top: 1.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+.k .left button img{
+    height: 1.3rem;
+    margin-top: 1rem;
+    margin-left: -0.5rem;
+    width: 1.5rem;
+} 
+.k .left button h3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 1.2rem;
+    margin-left: -2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    
+}
+
+
+
+/* section five css */
+.five .reviews{
+    background-color: #f4cd87;
+    width: 90%;
+    margin-left: 5rem;
+    height: 35rem;
+}
+.five .rr h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+}
+.five .rr h2 span{
+    color: orange;
+}
+.five .rr{
+    background-color: #f4cd87;
+    width: 90%;
+    margin-left: 5rem;
+}
+.five .rr h3{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    margin-top: 1.5rem;
+    font-size: 1rem; 
+}
+.review img{ 
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.reviews .review{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 6rem;
+    border-radius: 7px;
+    
+}
+.reviews .review p{
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.reviews .review .para img{
+    height: 5rem;
+    margin-top: -1.5rem;
+    margin-left: 1.8rem;
+}
+.five .reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.five .collections{
+    margin-top:7rem;
+    margin-left: 9rem;
+}
+.five .collections h2{
+    font-size: 2.2rem;
+}
+.five .collection{
+    margin-top: 4rem;
+}
+
+.collections .collectionss .collection img{
+    height: 13rem;
+    width: 15rem;
+}
+.collectionss .collection p{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+}
+.collectionss .collection{
+    background-color: #f4cd87;
+    padding: 0.3rem;
+    width: 15.7rem;
+}
+.collections .collectionss{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -9rem;
+}
+
+
+
+/* section six css */
+.six .map{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.six .map img{
+    height: 25rem;
+    width: 60rem;
+}
+
+.six .qw{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.six .w{
+    width: 30%;
+    margin-left: -15rem;
+}
+.qw{
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+.six .w .log{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.six .w .log h3{
+    margin-left: 0.5rem;
+}
+.six .w p{
+    width: 65%;
+    margin-top: 1rem;
+}
+.six .w .input input{
+    background-color: #f4cd87;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 65%;
+    height: 1.5rem;
+    padding: 0.8rem;
+} 
+
+.six .x ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0.8rem;
+}
+
+.six .x ul li:hover{
+cursor: pointer;
+color: #f4cd87;
+text-decoration: underline;
+}
+
+.six .x ul li{
+    list-style: none;
+    padding: 0.3rem;
+}
+.six .y h2{
+    margin-left: 5rem;
+}
+.six .y ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-left: 5rem;
+   padding: 0.8rem;
+ }
+ .six .y ul li{
+     list-style: none;
+     padding: 0.3rem;
+ }
+ .six .y ul li:hover{
+    cursor: pointer;
+    color: #f4cd87;
+    text-decoration: underline;
+    }
+ .six .z h2{
+    margin-left: 5rem;
+}
+ .six .z ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-left: 5rem;
+   padding: 0.8rem;
+ }
+ .six .z ul li{
+     list-style: none;
+     padding: 0.3rem;
+ }
+ .six .z ul li:hover{
+    cursor: pointer;
+    color: #f4cd87;
+    text-decoration: underline;
+    }
+
+
+
+ /* section seven css */
+.seven .up{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.seven .up .logo{
+    
+    margin-left: 2rem;
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        color: #339bfb;
+       margin-top: 1rem;
+        width: 30%;
+}
+.seven .up .logo h3{
+    margin-left: 1rem;
+}
+
+.seven .up .input input{
+    border: none;
+    outline: none;
+   height: 2rem;
+    width: 25rem;
+   margin-top: 1.4rem;
+    text-align: center;
+     background: #f4cd87;
+     border-radius: 2rem;
+}
+.seven .up.input{
+    width: 35%;
+}
+
+.seven .up ul{
+    display: flex; 
+    margin-top: 1.5rem;
+    width: 35%;
+    
+}
+.seven .up ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+.seven .up ul li:hover{
+    cursor: pointer;
+    color: #f4cd87;
+    text-decoration: underline;
+}
+.seven .kl{
+    display: flex;
+}
+.seven .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.seven .left img{
+    margin-top: 1rem;
+    height: 20rem;
+}
+.seven .right{
+    margin-top: 2.5rem;
+    margin-left: 14rem; 
+}
+.seven .right h2{
+    font-size: 2rem;
+    width: 60%;
+}
+.seven .right p{
+    width: 50%;
+    margin-top: 1rem;
+}
+.seven .right h3{
+    margin-top: 1rem;
+}
+.seven .right h3 span{
+    color: #339bfb;
+    margin-left: 1rem;
+}
+.seven .right .color img{
+    margin-left: -2rem;
+}
+
+
+
+
+/* section eight css */
+.eight .up{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.eight .up .logo{
+    
+    margin-left: 2rem;
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        color: #339bfb;
+       margin-top: 1rem;
+        width: 30%;
+}
+.eight .up .logo h3{
+    margin-left: 1rem;
+}
+
+.eight .up .input input{
+    border: none;
+    outline: none;
+   height: 2rem;
+    width: 25rem;
+   margin-top: 1.4rem;
+    text-align: center;
+     background: #f4cd87;
+     border-radius: 2rem;
+}
+.eight .up.input{
+    width: 35%;
+}
+
+.eight .up ul{
+    display: flex; 
+    margin-top: 1.5rem;
+    width: 35%;
+    
+}
+.eight .up ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+.eight .up ul li:hover{
+    cursor: pointer;
+    color: #f4cd87;
+    text-decoration: underline;
+}
+.eight .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.eight .left img{
+    margin-top: 1rem;
+    height: 20rem;
+}
+.eight .cv{
+    display: flex;
+}
+.eight .right{
+    margin-top: 3rem;
+}
+.eight .right .color h3{
+    font-size: 2rem;
+}
+.eight .right .color img{
+    margin-left: -2rem;
+}
+
+.eight .right ul li{
+    list-style: none;
+    padding: 0.3rem;
+}
+
+
+
+/* section nine css */
+.nine .table h3{
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+.nine .table img{
+    margin-left: 7rem;
+}
+.nine .bottom img{
+    margin-left: 13rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+  
+        header .logo{
+            width: auto;
+            margin-top: -2rem;
+            margin-left: 1.5rem;
+        }
+        header .input{
+            width: auto;
+            margin-top: 4rem;
+            margin-left: -15rem;
+        }
+        header .input input{
+            width: 13rem;
+            height: 1.5rem;
+        }
+        header ul {
+            margin-top: 7.5rem;
+            margin-left: -14rem;
+        }
+        header ul li {
+          display: flex;
+          height: 2rem;
+          margin-left: 2rem;
+          font-size: 0.9rem;
+        }
+        .one .left {
+            width: auto;
+        }
+        .one .left h3{
+            font-size: 0.8rem;
+            margin-left: -1rem;
+            width: 9rem;
+            padding: 0.2rem;
+        }
+        .one .left h2{
+            font-size: 1.2rem;
+            margin-left: -1rem;
+        }
+        .one .left h1{
+            font-size: 2.5rem;
+            margin-left: -1rem;
+        }
+        .one .left p{
+            font-size: 0.8rem;
+            margin-left: -1rem;
+            width: 70%; 
+            margin-top: -2px;
+            margin-top: 2px;
+        }
+        .one .left .images .image img{
+            height: 1.3rem;
+        }
+        .images .image h4{
+            font-size: 0.7rem;
+        }
+        .one .left .images{
+            margin-left: -1rem;
+            display: grid;
+            grid-template-columns: repeat(1 ,1fr);
+            width: 45%;
+        }
+        .one .left .images .image{
+            display: flex;
+            justify-content: center;
+            margin-top: -0.5rem;
+            padding: 0.3rem;
+           
+        }
+        .one .left button{
+            width: 8rem;
+            height: 2rem;
+            margin-left: -1.3rem;
+            margin-top: -0.1rem;
+            margin-top: 0.9rem;
+            
+        }
+        .one .left button h4{
+            font-size: 0.7rem;
+           margin-top: -0.1rem;
+           margin-top: 0.6rem;
+        }
+        .one .left button img{
+            width: 17%;
+            margin-left: 0.1rem;
+            margin-left: -0.2rem;
+            margin-top: -0.1rem;
+            margin-top: 0.5rem;
+        }
+        .one {
+            display: flex;
+            flex-direction: column;
+        }
+        .one .right img {
+             height: 15rem;
+             margin-left: -9rem;
+             margin-top: 2rem;
+        }
+        .top1 {
+            margin-left: 3.7rem;
+        }
+        .two .top .top1 h3{
+            width: 17rem;
+            margin-left: -2rem;
+        }
+        .two .top .top1 img{
+            margin-top: 0.5rem;
+            margin-left: -5px;
+            margin-left: 5rem;
+        }
+        .top2 {
+            margin-top: 17rem;
+           
+        }
+        .two .top .top2 img {
+            height: 7rem;
+            margin-left: -17.5rem;
+            margin-top: -2rem;
+        }
+        .top3 {
+            margin-top: 17rem;
+        }
+        .two .top .top3 img{
+            height: 7rem;
+            margin-left: -8.5rem;
+            margin-top: -2rem;
+        }
+        .two .top {
+            background-color: #f4cd87;
+            width: 18.5rem;
+            margin-left: -0.5rem;
+            margin-left: 0.5rem;
+        }
+        .two .middle .y img{
+           margin-left: 10rem;
+        }
+        .two .middle{
+            background-color: rgba(246,213,110,255);
+            width: 14rem;
+            margin-left: -5rem;
+            margin-left: 2.7rem;
+        }
+        .two .middle p{
+            margin-left: -8rem;
+            margin-top: 13rem;
+        }
+        .two .middle .p{
+            margin-left: -22rem;
+            margin-top: 22rem;
+        }
+        .two .bottom .left{
+            margin-left: -1rem;
+            margin-top: -5rem;
+            margin-left: 1rem;
+        }
+        .two .bottom .left{
+            background-color: rgba(246,213,110,255);
+            height: 11rem;
+            width: 14rem;
+            margin-left: 2rem;
+        }
+        .two .bottom .left .a p{
+             font-size: 1rem;
+        }
+        .two .bottom .left .a h3{
+            font-size: 0.8rem;
+        }
+        .two .bottom .left .a h4{
+            display: flex;
+        }
+        .two .bottom .left .b img{
+             height: 6rem;
+        }
+        .two .bottom .right {
+            margin-top: 10rem;
+            margin-left: -2rem;
+        }
+        .two .bottom .right {
+            background-color: rgba(246,213,110,255);
+            height: 12rem;
+            width: 14rem; 
+            margin-left: -14rem;
+        }
+        .two .bottom .right .a p{
+            font-size: 1rem;
+       }
+       .two .bottom .right .a h3{
+           font-size: 0.8rem;
+       }
+       .two .bottom .right .a h4{
+           display: flex;
+       }
+        .two .bottom .right .b img{
+            height: 8rem;
+            margin-left: -0.1rem;
+            margin-left: 1rem;
+            margin-top: 4rem;
+        }
+        .three {
+            background-color: #f4cd87;
+            height: 69rem;
+            width: 20.4rem;
+            margin-left: -1rem;
+        }
+        .three .left .akb .c img{
+            height: 6rem;
+        }
+        .three .left .akb .c {
+            margin-left: -1rem;
+            margin-top: -1rem;
+            margin-top: 1rem;
+        }
+        .three .left .akb .c{
+            background-color: white;
+            height: 6rem;
+            width: 7rem;
+            
+        }
+        .three .left .akb .d{
+            margin-left: -8rem;
+            margin-top: -1rem;
+            margin-top: 4.5rem;
+        }
+        .three .left .akb .d img{
+            height: 10rem;
+        }
+        .three .left .akb .d {
+            background-color: white;
+            height: 10rem;
+            width: 7.5rem;
+        }
+        .three .left .akb .e{
+            margin-top: -0rem;
+        }
+        .three .left .akb .e img{
+            height: 10rem;
+        }
+        .three {
+            display: flex;
+            flex-direction: column;
+        }
+        .three .right{
+            margin-top: -1rem;
+        }
+        
+        
+        .three .right h1 {
+            margin-left: 0rem;
+            margin-top: 2rem;
+            width: 3rem;
+        }
+        .three .right p{
+            margin-left: 1rem;
+            width: 15rem;
+        }
+        .three .right button {
+             margin-top: -1rem;
+             margin-top: 0.5rem;
+             width: 10rem;
+             margin-left: -0.5rem;
+             margin-left: 1rem;
+        }
+        .four{
+            margin-left: 1rem;
+        }
+        .four .top .mn h1{
+            font-size: 1.8rem;
+            margin-left: -7rem;
+        }
+        .four .top .mn p {
+            width: 17rem;
+            margin-left: -7rem;
+        }
+        .four .top .f ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: -7rem;
+            margin-top: -1rem;
+            margin-top: 1rem;
+            
+        }
+        .four .top .f ul li{
+            
+            width: 0.1rem;
+        }
+        .four .products {
+            margin-left: -1rem;
+        }
+        .four .products .product img{
+            height: 4.5rem;
+            width: 5rem;
+        }
+        .product {
+            margin-top: -3rem;
+        }
+        .product h3{
+            font-size: 0.6rem;
+            margin-left: -1rem;
+        }
+        .product .price h4{
+            font-size: 0.6rem;
+        }
+        .product .price h5 {
+            font-size: 0.5rem;
+            margin-top: 0.8rem;
+            
+        }
+        .four .botom {
+            margin-top: -1rem;
+            margin-top: 2rem;
+        }
+        .four .products .product .price h5{
+            margin-left: -3rem;
+        }
+        .four .botom {
+            display: grid;
+            grid-template-columns: repeat(1 ,1fr);
+            margin-left: -3rem;
+            margin-left: 2.5rem;
+        }
+        .four .botom .produt h3 {
+            font-size: 1rem;
+            margin-left: -8rem;
+        }
+        .four .botom .produt .price h5 {
+            margin-left: -6rem;
+        }
+        .four .botom .produt .price h4 {
+            margin-left: -2rem;
+        }
+        .four .k  {
+            margin-left: -1.5rem;
+            margin-left: 0.1rem;
+        }
+        .four .left button {
+            margin-left: -0.5rem;
+            margin-left: 2rem;
+            width: 11rem;
+        }
+        .four .left button h3 {
+            font-size: 1rem;
+        }
+        .four .right img {
+            margin-left: -15rem;
+            height: 17rem;
+            margin-top: 12rem;
+        }
+        .four .k {
+            background-color: #f4cd87;
+            height: 25rem;
+        }
+        .five {
+            width: 21.5rem;
+            margin-left: -5rem;
+        }
+        .five .reviews {
+            background-color: #f4cd87;
+            height: 47rem;
+        }
+        .five .rr h2{
+            font-size: 1.3rem;
+        }
+        .five .rr h3 {
+            width: 15rem;
+            margin-left: 2.5rem;
+        }
+        .five .reviews .review img{
+            height: 1.3rem;
+        }
+        .five .reviews .review .para p {
+            font-size: 0.8rem;
+            width: 8rem;
+        }
+        
+        .five .reviews .review {
+            background-color: white;
+            height: 4.5rem;
+            margin-left: -1rem;
+            margin-left: 4rem;
+        }
+        .five .reviews {
+            display: flex;
+            flex-direction: column;
+        }
+        .five .collections {
+            margin-top: -1rem;
+            margin-top: 3rem;
+        }
+        .five .collections .collectionss {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            margin-left: -2.2rem;
+        }
+        .six .map img{
+            height: 27rem;
+            width: 17rem;
+            margin-left: -7rem;
+        }
+        .six .qw {
+            margin-top: 5rem;
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        .six .qw .w {
+            margin-left: 4rem;
+        }
+        .six .qw .w .log {
+            margin-left: -10rem;
+        }
+        .six .qw .w .log h3{
+            font-size: 1.5rem;
+        }
+        .six .qw .w .input {
+            margin-left: -9rem;
+            width: 12rem;
+        }
+        .six .qw .w p{
+            width: 9rem;
+            margin-left: -9rem;
+        }
+        .x {
+            margin-left: -7rem;
+            margin-top: 0.3rem;
+        }
+        .x h2{
+            font-size: 1.3rem;
+        }
+        .x ul li{
+            margin-left: -15rem;
+        }
+        .y h2{
+            font-size: 1.3rem;
+        }
+        .y {
+            margin-left: -9rem;
+            margin-top: 1rem;
+        }
+        .y ul li{
+            margin-left: -10rem;
+        }
+        .z h2{
+            font-size: 1.3rem;
+        }
+        .z {
+            margin-left: -14rem;
+            margin-top: 1rem;
+        }
+        .z ul li{
+            margin-left: -14rem;
+        }
+        .seven .up .logo {
+            margin-left: -5rem;
+        }
+        .seven .up{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        } 
+        .seven .up .logo{
+            margin-left: 2rem;
+        }
+        .seven .up .input{
+            margin-left: 4rem;
+        }
+        .seven .up .input input{
+            width: 12rem;
+        }
+        .seven .up ul {
+            margin-left: -3rem;
+        }
+        .seven .up ul li{
+            font-size: 1rem;
+            width: 1rem;
+        }
+        .seven .kl .left img{
+            margin-left: 5rem;
+            height: 15rem;
+        }
+        .seven .kl{
+            display: flex;
+            flex-direction: column;
+        }
+        .seven .kl .right{
+            margin-left: -2rem;
+            margin-left: 2rem;
+        }
+        .seven .kl .right h2{
+            font-size: 1.5rem;
+        }
+        .seven .kl .right p{
+            width: 12rem;
+        }
+
+        .eight .up .logo {
+            margin-left: -5rem;
+        }
+        .eight .up{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        } 
+        .eight .up .logo{
+            margin-left: 2rem;
+        }
+        .eight .up .input{
+            margin-left: 4rem;
+        }
+        .eight .up .input input{
+            width: 12rem;
+        }
+        .eight .up ul {
+            margin-left: -3rem;
+        }
+        .eight .up ul li{
+            font-size: 1rem;
+            width: 1rem;
+        }
+        .eight .cv{
+            display: flex;
+            flex-direction: column;
+        }
+        .eight .cv .left img{
+            margin-left: 5rem;
+            height: 15rem;
+        }
+        .eight .right{
+            margin-left: 1.2rem;
+        }
+        .nine .table{
+            margin-left: -7rem;
+        }
+        .nine .table h3{
+            margin-left: -1rem;
+            margin-left: 8rem;
+        }
+        .nine .table img{
+            height: auto;
+            width: 60%;
+        }
+        .nine .bottom img{
+            height: auto;
+            width: 70%;
+            margin-left: -1rem;
+            margin-left: 0.4rem;
+        }
+        .stop-scroll {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+          }
+     
+
+    }
+    body{
+        height: 100%;
+        overflow-x: hidden;
+    }
